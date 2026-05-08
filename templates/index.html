@@ -1,0 +1,35 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('recommend') }}">Get Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Movie Recommendation Website</h1>
+            <p>Welcome to our movie recommendation website! Here, you can find personalized movie recommendations based on your interests.</p>
+        </section>
+        <section>
+            <h2>How it works</h2>
+            <p>Our website uses machine learning algorithms to analyze your movie preferences and provide you with personalized recommendations.</p>
+            <p>To get started, simply click on the "Get Recommendations" link above and fill out the form with your favorite movies.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Movie Recommendation Website</p>
+    </footer>
+</body>
+</html>
+```
