@@ -1,0 +1,122 @@
+```css
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Home Page Styles */
+
+.home-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.home-page p {
+    margin-bottom: 20px;
+}
+
+/* Recommendation Page Styles */
+
+.recommendation-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recommendation-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recommendation-page li {
+    margin-bottom: 10px;
+}
+
+.recommendation-page li a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.recommendation-page li a:hover {
+    color: #23527c;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+    .home-page, .recommendation-page {
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-page, .recommendation-page {
+        margin: 10px auto;
+        padding: 5px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+```
